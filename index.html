@@ -17,7 +17,7 @@
             <div class="container">
                 <h1 class="text-center display-1 "> MAIL RANDOMICHE </h1>      
                 <ul class="list-group pt-5">
-                    <li class="list-group-item text-center" v-if="emails.length < 10"> ASPETTA IL CARICAMENTO  </li>
+                    <li class="list-group-item text-center fw-bold" v-if="emails.length < 10"> ASPETTA IL CARICAMENTO  </li>
                     <li class="list-group-item text-center" v-else="" v-for="(email,index) in emails"> {{ emails[index] }} </li>
                 </ul>
         </div>
